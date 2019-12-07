@@ -99,7 +99,7 @@
         "drupal/jquery_ui": "^1.2",
         "drupal/jquery_ui_droppable": "^1.0",
         "drupal/jquery_ui_draggable": "^1.0",
-        "drush/drush": "^9.0.0",
+        "drush/drush": "^9.7.1 | ^10.0.0",
         "drupal/swiftmailer" : "1.0-beta2",
         "fullcalendar/fullcalendar" : "3.10.0",
         "jquery/multi-select" : "0.9.12",
@@ -109,6 +109,12 @@
         "qtip2/qtip2" : "3.0.3",
         "tecnickcom/tcpdf": "6.2.*",
         "vench/vs-word": "^1.0",
-        "swiftmailer/swiftmailer" : "v5.4.12"
+        "vlucas/phpdotenv": "^4.0",
+        "webflo/drupal-finder": "^1.0.0",
+        "swiftmailer/swiftmailer" : "v5.4.12",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
+    },
+    "require-dev": {
+        "drupal/core-dev": "^8.8.0"
     }
 }
