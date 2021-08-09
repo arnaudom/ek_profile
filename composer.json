@@ -1,6 +1,6 @@
 {
     "name": "arreasystems/ek_profile",
-    "description": "EK management tools is a distribution for business back office management.",
+    "description": "EK management tools is a distribution for business back office management with Drupal 9.",
     "authors": [
         {
             "name": "arrea-systems.com",
@@ -20,9 +20,9 @@
             "type": "package",
             "package": {
                 "name": "fullcalendar/fullcalendar",
-                "version": "3.10.0",
+                "version": "3.10.2",
                 "dist": {
-                    "url": "https://github.com/fullcalendar/fullcalendar/releases/download/v3.10.0/fullcalendar-3.10.2.zip",
+                    "url": "https://github.com/fullcalendar/fullcalendar/releases/download/v3.10.2/fullcalendar-3.10.2.zip",
                     "type": "zip"
                 },
                 "type": "drupal-library"
@@ -95,14 +95,13 @@
         "arreasystem/ek": "dev-8.x-dev",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6.5",
-        "drupal/core": "^8.8",
         "drupal/core-composer-scaffold": "^9",
-        "drupal/console": "^1.0.2",
+        "drupal/core-recommended": "^9",
         "drush/drush": "^10.3",
         "drupal/jquery_ui": "^1.2",
         "drupal/jquery_ui_droppable": "^1.0",
         "drupal/jquery_ui_draggable": "^1.0",
-        "drupal/swiftmailer" : "^1.0",
+        "drupal/swiftmailer" : "^2.0",
         "fullcalendar/fullcalendar" : "3.10.2",
         "jquery/multi-select" : "0.9.12",
         "jquery/chosen" : "1.8.7",
@@ -112,10 +111,9 @@
         "tecnickcom/tcpdf": "6.2.*",
         "vench/vs-word": "^1.0",
         "vlucas/phpdotenv": "^4.0",
-        "webflo/drupal-finder": "^1.0.0",
-        "swiftmailer/swiftmailer" : "v5.4.12"
+        "webflo/drupal-finder": "^1.0.0"
     },
-    "require-dev": {
-        "drupal/core-dev": "^8.8"
+    "conflict": {
+        "drupal/drupal": "*"
     }
 }
