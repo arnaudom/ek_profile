@@ -31,7 +31,7 @@
         {
             "type": "package",
             "package": {
-                "name": "qTip2/qTip2",
+                "name": "qip2/qtip2",
                 "version": "3.0.3",
                 "dist": {
                     "url": "https://github.com/qTip2/qTip2/archive/v3.0.3.zip",
@@ -67,7 +67,7 @@
         {
             "type": "package",
             "package": {
-                "name": "jquery/tagEditor",
+                "name": "jquery/tageditor",
                 "version": "1.0.20",
                 "dist": {
                     "url": "https://github.com/Pixabay/jQuery-tagEditor/archive/1.0.20.zip",
@@ -96,12 +96,13 @@
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6.5",
         "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
         "drush/drush": "^10.3",
         "drupal/jquery_ui": "^1.2",
         "drupal/jquery_ui_droppable": "^1.0",
         "drupal/jquery_ui_draggable": "^1.0",
-        "drupal/swiftmailer" : "^2.0",
+        "drupal/swiftmailer" : "^2.2",
         "fullcalendar/fullcalendar" : "3.10.2",
         "jquery/multi-select" : "0.9.12",
         "jquery/chosen" : "1.8.7",
