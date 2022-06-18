@@ -31,7 +31,7 @@
         {
             "type": "package",
             "package": {
-                "name": "qip2/qtip2",
+                "name": "qtip2/qtip2",
                 "version": "3.0.3",
                 "dist": {
                     "url": "https://github.com/qTip2/qTip2/archive/v3.0.3.zip",
